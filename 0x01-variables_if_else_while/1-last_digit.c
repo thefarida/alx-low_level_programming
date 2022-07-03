@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
  * main - Prints texts according to numbers
@@ -8,7 +9,10 @@
  */
 int main(void)
 {
-int n, firstd, lastd;
+int n, lastd;
+  
+printf("Enter number = ")
+scanf("%d", &n);
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
