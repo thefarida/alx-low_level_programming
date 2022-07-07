@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer -> Prints 24 hours
- *Return: ...
+ *Return: Always 0
 */
 void jack_bauer(void)
 {
