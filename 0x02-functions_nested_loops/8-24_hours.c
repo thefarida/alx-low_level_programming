@@ -18,7 +18,7 @@ for (z = 0; z <= 9; z++)
 {
 {
 _putchar(w + '0');
-_putchar(x + '0');
+_putchar(a + '0');
 _putchar(58);
 _putchar(y + '0');
 _putchar(z + '0');
