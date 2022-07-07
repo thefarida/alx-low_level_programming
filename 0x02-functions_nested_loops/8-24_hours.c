@@ -10,6 +10,8 @@ int w, a, y, z;
 
 for (w = 0; w <= 2; w++)
 {
+for (a = 0; a <= 3; a++)
+{
 if ((w <= 1 && a <= 9) || (w <= 2 && a <= 3))
 {
 for (y = 0; y <= 5; y++)
@@ -23,6 +25,7 @@ _putchar(58);
 _putchar(y + '0');
 _putchar(z + '0');
 _putchar('\n');
+}
 }
 }
 }
