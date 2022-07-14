@@ -1,32 +1,27 @@
 #include "main.h"
 
 /**
- * cap_string -> Capitalizes all the words of a string
- * @s: Sting in question
+ * cap_string -> Capitalizes words in a string
+ * @s: String to be capitalized
  *
- * Return: Capitalized String
+ * Return: Capitalized string
  */
 char *cap_string(char *s)
 {
+	char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 	int len = 13;
-	int b = 0, i;
-	char spc[] = {32, 9, '\n', ',', ';', '!', '?', '"', '(', ')', '{', '}'};
+	int a = 0, i;
 
-	while (s[b])
+	while (s[a])
 	{
 		i = 0;
-
 		while (i < len)
 		{
-			if
-			{
-				((b = 0 || s[b - 1] == spc[i]) && (s[b] >= 97 && s[b] <= 122))
-				s[b] -= 32;
-			}
-
+			if ((a == 0 || s[a-1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
+				s[a] = s[a] - 32;
 			i++;
 		}
-		b++;
+		a++;
 	}
 	return (s);
 }
