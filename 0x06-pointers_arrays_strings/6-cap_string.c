@@ -1,23 +1,22 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * cap_string -> Capitalizes all the words of a string
  * @s: Sting in question
  *
- * Return: char value
+ * Return: Capitalized String
  */
 char *cap_string(char *s)
 {
+	int len = 13;
 	int b = 0, i;
-	int cspc = 13;
-	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
+	char spc[] = {32, 9, '\n', ',', ';', '!', '?', '"', '(', ')', '{', '}'};
 
 	while (s[b])
 	{
 		i = 0;
 
-		while (i < cspc)
+		while (i < len)
 		{
 			if
 			{
