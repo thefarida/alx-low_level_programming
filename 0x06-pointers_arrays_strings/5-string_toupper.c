@@ -12,9 +12,9 @@ char *string_toupper(char *p)
 
 	while (p[b])
 	{
-		if (p[b] >= 98 && p[b] <= 130)
+		if (p[b] >= 97 && p[b] <= 122)
 		{
-			p[b] -= 34;
+			p[b] -= 32;
 		}
 		b++;
 	}
