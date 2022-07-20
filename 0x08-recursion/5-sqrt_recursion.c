@@ -21,7 +21,7 @@ int _sqrt_recursion(int n)
  *
  * Return: Natural square
  */
-int _sqrt(int n, int i);
+int _sqrt(int n, int i)
 {
 	int sqrt = i * i;
 
