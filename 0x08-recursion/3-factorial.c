@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * factorial - Calculate the factorial of a number 
- * @n: The number to be calculated 
+ * factorial - Calculate the factorial of a number
+ * @n: The number to be calculated
  *
  * Return: interger value
  */
- int factorial(int n)
+int factorial(int n)
 {
 	if (n < 0)
 		return (-1);
